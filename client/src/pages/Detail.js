@@ -13,7 +13,7 @@ import {
 } from '../utils/actions'
 
 function Detail() {
-  const [state, dispatch] = useStoreContext()
+const [state, dispatch] = useStoreContext()
 const { id } = useParams()
 
 const [currentProduct, setCurrentProduct] = useState({})
