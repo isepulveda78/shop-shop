@@ -1,5 +1,5 @@
-import React from "react";
-import Jumbotron from "../components/Jumbotron";
+import React from "react"
+import Jumbotron from "../components/Jumbotron"
 
 const NoMatch = () => {
   return (
@@ -13,7 +13,7 @@ const NoMatch = () => {
         </h1>
       </Jumbotron>
     </div>
-  );
-};
+  )
+}
 
-export default NoMatch;
+export default NoMatch
